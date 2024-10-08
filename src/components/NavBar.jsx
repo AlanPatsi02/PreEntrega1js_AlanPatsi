@@ -1,8 +1,8 @@
 import CartWidget from "./CartWidget"
-
+import "./navbar.scss"
 const NavBar = () => {
     return (
-    <nav>
+    <nav className="navbar">
     <div className="brand">
         <h2>Espacio-Gamer</h2>
     </div>
